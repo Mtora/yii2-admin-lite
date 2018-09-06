@@ -1,0 +1,23 @@
+/**
+    极验样式
+ */
+.inp {
+    border: 1px solid gray;
+    padding: 0 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+#embed-captcha {
+    width: 100%;
+    margin: 0 15px;
+}
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+#notice {
+    color: red;
+}

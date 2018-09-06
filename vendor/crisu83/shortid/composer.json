@@ -1,0 +1,25 @@
+{
+    "name": "crisu83/shortid",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Christoffer Niska",
+            "email": "christofferniska@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "paragonie/sodium_compat": "^0.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crisu83\\ShortId\\": "src/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "~2.0",
+        "codeception/specify": "0.4.*",
+        "apigen/apigen": "~4.1",
+        "apigen/theme-bootstrap": "~1.1"
+    }
+}
